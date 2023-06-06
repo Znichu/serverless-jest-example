@@ -1,8 +1,9 @@
 name: pull-request-verification
 
 on:
-  pull_request:
-    branches: [master]
+  push:
+    branches:
+      - "*"
     
 jobs:
     coverage:
