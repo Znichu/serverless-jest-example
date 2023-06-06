@@ -2,7 +2,7 @@ name: pull-request-verification
 
 on:
   pull_request:
-    branches: [development]
+    branches: [master]
     
 jobs:
     coverage:
